@@ -1,47 +1,59 @@
 # Alex Maina
 
-## Deterministic data systems
+## Deterministic data systems (verifiable, reproducible, predictable)
 
-I build software where:
-- data is verifiable
-- pipelines are reproducible
-- systems behave predictably across environments
-
----
-
-## Featured system: Trace — Deterministic Behavioral Event Ledger
-
-A mobile-first event ledger designed for:
-- lossless recovery after reinstall
-- byte-identical ledger reconstruction
-- reproducible exports for analysis (DuckDB)
-
-**Architecture**
-- Android app: capture + integrity guarantees  
-- External pipeline: reproducible analysis (DuckDB)
-
-**Code**
-Currently private (can share details on request).
+I build systems where:
+- **data is verifiable** (integrity checks + invariants)
+- **pipelines are reproducible** (same inputs → same outputs)
+- **behavior is deterministic** across environments
 
 ---
 
-## What this demonstrates
-- deterministic system design
-- schema + invariant enforcement
-- reproducible data pipelines
-- separation of capture vs. analysis
-- end-to-end data lifecycle ownership
+## Featured: Trace — Deterministic Behavioral Event Ledger
+
+A mobile-first event ledger built to guarantee:
+- **lossless recovery** after uninstall/reinstall
+- **byte-identical reconstruction** of the ledger
+- **reproducible exports** for external analysis (DuckDB)
+
+### System diagram
+```mermaid
+flowchart LR
+  A[Android Client\nEvent capture + integrity] -->|Append-only ledger| B[(Local Store\nSQLite)]
+  B -->|Export| C[Export Artifacts\nCSV/Parquet + hashes]
+  C --> D[DuckDB Pipeline\nReproducible analysis]
+  D --> E[Reports\nMetrics + validations]
+```
+
+### Determinism contract (what must always be true)
+| Guarantee | What it means |
+|---|---|
+| Append-only ledger | No mutation of historical events |
+| Schema + invariants | Invalid events never enter the ledger |
+| Content-addressed exports | Artifacts can be verified via hashes |
+| Reproducible pipeline | Re-running produces identical results |
+
+> Implementation repos are currently **private** (Trace Lab / Android / Backend). I can share a walkthrough on request.
+
+---
+
+## Proof-style artifacts (what I publish even while code is private)
+- A **sample anonymized dataset** (small, synthetic)
+- Export **hash manifest** (to verify artifacts)
+- A DuckDB **one-command reproduction** script
+- A short **pipeline report** (row counts, invariants, checks)
 
 ---
 
 ## Stack
-**Python • Kotlin • Java • SQL**  
-**DuckDB • SQLite** • **Flask**
+**Languages:** Python, Kotlin, Java, SQL  
+**Data:** DuckDB, SQLite  
+**Backend:** Flask APIs
 
 ---
 
-## Direction
-Data Engineering • MLOps • AI-integrated pipelines
+## Current direction
+Data Engineering • MLOps systems • AI-integrated pipelines
 
 ---
 
