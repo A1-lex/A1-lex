@@ -1,66 +1,45 @@
-# Alex Maina
+# Hi, I’m Alex Kinyua 👋
 
-## Deterministic data systems (verifiable, reproducible, predictable)
+*Data Science • AI Engineering • Reproducible Systems*
 
-I build systems where:
-- **data is verifiable** (integrity checks + invariants)
-- **pipelines are reproducible** (same inputs → same outputs)
-- **behavior is deterministic** across environments
+I build practical systems for data, machine learning, and reliable software.
 
 ---
 
-## Featured: Trace — Deterministic Behavioral Event Ledger
+## Project Highlights
 
-A mobile-first event ledger built to guarantee:
-- **lossless recovery** after uninstall/reinstall
-- **byte-identical reconstruction** of the ledger
-- **reproducible exports** for external analysis (DuckDB)
+### Data Science
+Applied work across analytics and machine learning.
 
-### System diagram
-```mermaid
-flowchart LR
-  A[Android Client\nEvent capture + integrity] -->|Append-only ledger| B[(Local Store\nSQLite)]
-  B -->|Export| C[Export Artifacts\nCSV/Parquet + hashes]
-  C --> D[DuckDB Pipeline\nReproducible analysis]
-  D --> E[Reports\nMetrics + validations]
-```
+- [Datavine_Analytics](...)
+- [fintech-loan-approval-ml](...)
 
-### Determinism contract (what must always be true)
-| Guarantee | What it means |
-|---|---|
-| Append-only ledger | No mutation of historical events |
-| Schema + invariants | Invalid events never enter the ledger |
-| Content-addressed exports | Artifacts can be verified via hashes |
-| Reproducible pipeline | Re-running produces identical results |
+### Trace
+A mobile-first system for structured event capture, recovery, and reproducible analysis.
 
-> Implementation repos are currently **private** (Trace Lab / Android / Backend). I can share a walkthrough on request.
+- [trace-backend](...)
+- [trace-android](...)
+
+### AI Systems
+Applied AI for security and automation.
+
+- [salamanet-bot](...)
 
 ---
 
-## Proof-style artifacts (what I publish even while code is private)
-- A **sample anonymized dataset** (small, synthetic)
-- Export **hash manifest** (to verify artifacts)
-- A DuckDB **one-command reproduction** script
-- A short **pipeline report** (row counts, invariants, checks)
+## Focus Areas
+
+Data Science • AI Engineering • Applied Machine Learning • Reproducible Data Systems • Azure / Microsoft Foundry
 
 ---
 
-## Stack
-**Languages:** Python, Kotlin, Java, SQL  
-**Data:** DuckDB, SQLite  
-**Backend:** Flask APIs
+## Tools
+
+[badge icons]
 
 ---
 
-## Current direction
-Data Engineering • MLOps systems • AI-integrated pipelines
+## Connect
 
----
-
-## Philosophy
-> If a system can’t be verified, it can’t be trusted.
-
----
-
-## Contact
-LinkedIn: https://www.linkedin.com/in/alex-kinyua-40627b270/
+✉️  
+in
