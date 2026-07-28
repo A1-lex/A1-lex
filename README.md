@@ -1,66 +1,44 @@
-# Alex Maina
+# Hi, I'm Alex Maina Kinyua 👋
+*Data Science • AI Engineering • Software Engineering*
 
-## Deterministic data systems (verifiable, reproducible, predictable)
-
-I build systems where:
-- **data is verifiable** (integrity checks + invariants)
-- **pipelines are reproducible** (same inputs → same outputs)
-- **behavior is deterministic** across environments
+I build practical systems for data, machine learning, and reliable software — 
+currently deepening my data science foundation at Moringa School after leading 
+engineering teams in production software.
 
 ---
 
-## Featured: Trace — Deterministic Behavioral Event Ledger
+## Featured Work
 
-A mobile-first event ledger built to guarantee:
-- **lossless recovery** after uninstall/reinstall
-- **byte-identical reconstruction** of the ledger
-- **reproducible exports** for external analysis (DuckDB)
+### Data Science
+- [amazon-reviews-nlp-timeseries-nn](https://github.com/A1-lex/amazon-reviews-nlp-timeseries-nn) — NLP, ARIMA forecasting, and a class-weighted neural network on Amazon review data
+- [Datavine_Analytics](https://github.com/A1-lex/Datavine_Analytics)
+- [fintech-loan-approval-ml](https://github.com/A1-lex/fintech-loan-approval-ml)
 
-### System diagram
-```mermaid
-flowchart LR
-  A[Android Client\nEvent capture + integrity] -->|Append-only ledger| B[(Local Store\nSQLite)]
-  B -->|Export| C[Export Artifacts\nCSV/Parquet + hashes]
-  C --> D[DuckDB Pipeline\nReproducible analysis]
-  D --> E[Reports\nMetrics + validations]
-```
+### Software Engineering
+- [ResearchHubX (CRPR)](https://github.com/JosephNderitu/ResearchHubX) — Led a 5-person team building a research repository platform for JKUAT, with MPESA Daraja payment integration. [Live demo](https://research-hub-x.vercel.app/)
 
-### Determinism contract (what must always be true)
-| Guarantee | What it means |
-|---|---|
-| Append-only ledger | No mutation of historical events |
-| Schema + invariants | Invalid events never enter the ledger |
-| Content-addressed exports | Artifacts can be verified via hashes |
-| Reproducible pipeline | Re-running produces identical results |
-
-> Implementation repos are currently **private** (Trace Lab / Android / Backend). I can share a walkthrough on request.
+### Trace — Deterministic Behavioral Event Ledger
+A mobile-first event ledger built for lossless recovery and reproducible exports (DuckDB). Implementation repos are currently private — happy to share a walkthrough on request.
 
 ---
 
-## Proof-style artifacts (what I publish even while code is private)
-- A **sample anonymized dataset** (small, synthetic)
-- Export **hash manifest** (to verify artifacts)
-- A DuckDB **one-command reproduction** script
-- A short **pipeline report** (row counts, invariants, checks)
+## Focus Areas
+Data Science • AI Engineering • Applied Machine Learning • Software Engineering • Azure / Microsoft Foundry
 
 ---
 
-## Stack
-**Languages:** Python, Kotlin, Java, SQL  
-**Data:** DuckDB, SQLite  
-**Backend:** Flask APIs
+## Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=000000)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ---
 
-## Current direction
-Data Engineering • MLOps systems • AI-integrated pipelines
-
----
-
-## Philosophy
-> If a system can’t be verified, it can’t be trusted.
-
----
-
-## Contact
-LinkedIn: https://www.linkedin.com/in/alex-kinyua-40627b270/
+## Connect
+[![Email](https://img.shields.io/badge/Email-3D3D3D?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alemaina867@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-kinyua-40627b270/)
