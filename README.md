@@ -1,24 +1,23 @@
 # Hi, I'm Alex Maina Kinyua 👋
 *Data Science • AI Engineering • Software Engineering*
 
-I build practical systems for data, machine learning, and reliable software — 
-currently deepening my data science foundation at Moringa School after leading 
-engineering teams in production software.
+I build practical systems for data, machine learning, and reliable software. Currently deepening my data science foundation at Moringa School after leading engineering teams in production software.
 
 ---
 
 ## Featured Work
 
 ### Data Science
-- [amazon-reviews-nlp-timeseries-nn](https://github.com/A1-lex/amazon-reviews-nlp-timeseries-nn) — NLP, ARIMA forecasting, and a class-weighted neural network on Amazon review data
-- [Datavine_Analytics](https://github.com/A1-lex/Datavine_Analytics)
-- [fintech-loan-approval-ml](https://github.com/A1-lex/fintech-loan-approval-ml)
+Applied work across analytics and machine learning.
+- [amazon-reviews-nlp-timeseries-nn](https://github.com/A1-lex/amazon-reviews-nlp-timeseries-nn): NLP, ARIMA forecasting, and a class-weighted neural network on Amazon review data
+- [fintech-loan-approval-ml](https://github.com/A1-lex/fintech-loan-approval-ml): Automated loan underwriting model (0.9733 ROC-AUC), built on the CRISP-DM framework with business-cost-optimized decision thresholds
+- [Datavine_Analytics](https://github.com/A1-lex/Datavine_Analytics): Three ML applications (classification, recommendation, clustering) using standardized datasets
 
 ### Software Engineering
-- [ResearchHubX (CRPR)](https://github.com/JosephNderitu/ResearchHubX) — Led a 5-person team building a research repository platform for JKUAT, with MPESA Daraja payment integration. [Live demo](https://research-hub-x.vercel.app/)
+- [ResearchHubX (CRPR)](https://github.com/JosephNderitu/ResearchHubX): Led a 5-person team building a research repository platform for JKUAT, with MPESA Daraja payment integration. [Live demo](https://research-hub-x.vercel.app/)
 
-### Trace — Deterministic Behavioral Event Ledger
-A mobile-first event ledger built for lossless recovery and reproducible exports (DuckDB). Implementation repos are currently private — happy to share a walkthrough on request.
+### Trace, Deterministic Behavioral Event Ledger
+A mobile-first event ledger built for lossless recovery and reproducible exports (DuckDB). Implementation repos are currently private, happy to share a walkthrough on request.
 
 ---
 
