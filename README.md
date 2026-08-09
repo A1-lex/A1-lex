@@ -15,7 +15,7 @@ Applied work across analytics and machine learning.
 ### AI Engineering
 Agentic and applied AI systems.
 - [ujima-agent-pride-prototype](https://github.com/A1-lex/ujima-agent-pride-prototype): 3-agent CrewAI-style prototype for ethical loan triage and financial literacy support, with human-in-the-loop escalation and audit-friendly outputs. [Live demo](https://ujima-agent-pride-prototype-kyhlhcxanntvgroknhvmuf.streamlit.app/)
-- [ecosort-waste-assistant](https://github.com/A1-lex/ecosort-waste-assistant): Integrated CNN image classification, text classification, and a RAG-based generative system for waste sorting and recycling guidance
+- [ecosort_waste_assistant](https://github.com/A1-lex/ecosort_waste_assistant): Integrated CNN image classification, text classification, and a RAG-based generative system for waste sorting and recycling guidance
 
 ### Software Engineering
 - [ResearchHubX (CRPR)](https://github.com/JosephNderitu/ResearchHubX): Led a 5-person team building a research repository platform for JKUAT, with MPESA Daraja payment integration. [Live demo](https://research-hub-x.vercel.app/)
