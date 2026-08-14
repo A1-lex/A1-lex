@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Alex Maina Kinyua</h1>
 <h3 align="center">Data Scientist & AI Engineer, based in Kenya</h3>
 
-<p align="center"><i>Systems that work past the demo.</i></p>
+<p align="center"><i>From prototype to production</i></p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Email-3D3D3D?style=for-the-badge&logo=gmail&logoColor=white" />
