@@ -12,11 +12,9 @@
 
 ### Sample Projects
 
-**[ecosort-waste-assistant](https://github.com/A1-lex/ecosort-waste-assistant)** — CNN, text classifier, and RAG system that identifies waste from images or text and generates recycling instructions
+**[ecosort-waste-assistant](https://github.com/A1-lex/ecosort-waste-assistant)**: CNN, text classifier, and RAG system that identifies waste from images or text and generates recycling instructions
 
-**[ujima-agent-pride-prototype](https://github.com/A1-lex/ujima-agent-pride-prototype)** — 3-agent CrewAI system for ethical loan triage with human-in-the-loop review · [Live demo](https://ujima-agent-pride-prototype-kyhlhcxanntvgroknhvmuf.streamlit.app/)
-
----
+**[ujima-agent-pride-prototype](https://github.com/A1-lex/ujima-agent-pride-prototype)**: 3-agent CrewAI system for ethical loan triage with human-in-the-loop review. [Live demo](https://ujima-agent-pride-prototype-kyhlhcxanntvgroknhvmuf.streamlit.app/)
 
 ### Tools
 
@@ -28,7 +26,5 @@
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
----
 
 <p align="center"><i>More work below, pinned repos</i></p>
