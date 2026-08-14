@@ -1,17 +1,24 @@
-# Hi 👋, I'm Alex Maina Kinyua
+<h1 align="center">Hi 👋, I'm Alex Maina Kinyua</h1>
+<h3 align="center">Data Scientist & AI Engineer, based in Kenya</h3>
 
-### Data Scientist & AI Engineer, based in Kenya
+<p align="center"><i>Systems that work past the demo.</i></p>
 
-I build machine learning systems that work past the demo — from computer vision and RAG pipelines to agentic workflows and fintech risk models.
-
-🔭 Currently building: multi-modal ML systems and LLM/RAG-based agents
-🌱 Deepening: cloud ML deployment (Azure, GCP) and applied deep learning
-💬 Ask me about: transfer learning, RAG systems, Python, TensorFlow, PyTorch
-📫 Reach me: [alemaina867@gmail.com](mailto:alemaina867@gmail.com) · [LinkedIn](https://www.linkedin.com/in/alex-kinyua-40627b270/)
+<p align="center">
+<img src="https://img.shields.io/badge/Email-3D3D3D?style=for-the-badge&logo=gmail&logoColor=white" />
+<a href="https://www.linkedin.com/in/alex-kinyua-40627b270/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
 
 ---
 
-### 🛠️ Tools I work with
+### Sample Projects
+
+**[ecosort-waste-assistant](https://github.com/A1-lex/ecosort-waste-assistant)** — CNN, text classifier, and RAG system that identifies waste from images or text and generates recycling instructions
+
+**[ujima-agent-pride-prototype](https://github.com/A1-lex/ujima-agent-pride-prototype)** — 3-agent CrewAI system for ethical loan triage with human-in-the-loop review · [Live demo](https://ujima-agent-pride-prototype-kyhlhcxanntvgroknhvmuf.streamlit.app/)
+
+---
+
+### Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -21,8 +28,7 @@ I build machine learning systems that work past the demo — from computer visio
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ---
 
-⭐️ See pinned repos below 
+<p align="center"><i>More work below, pinned repos</i></p>
