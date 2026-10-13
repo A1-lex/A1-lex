@@ -8,7 +8,7 @@ I build decision-support systems, backend services and machine learning applicat
 
 Based in Nairobi, Kenya.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View_my_work-2563EB?style=for-the-badge)](https://alex-kinyua.lovable.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_my_work-2563EB?style=for-the-badge)](https://alexmainakinyua.lovable.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexmainakinyua)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/A1-lex)
 
