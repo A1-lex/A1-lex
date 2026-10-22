@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm Alex Maina Kinyua
 
-### Full-Stack & AI Systems Engineer
+### Full-Stack Software & AI Systems Engineer
 
 I build decision-support systems, backend services and machine learning applications that are deployed, tested and documented.
 
